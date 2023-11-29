@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #98D4BA;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #bee3ae;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #7db17f;
+}
+
+.user-details {
+    margin-top: 20px;
+}
+
+.user-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    color: #618264;
+    
+}
+
+.user-details p strong {
+    color: #555843;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+

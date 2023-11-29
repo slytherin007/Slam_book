@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./images/aaron-burden-y02jEX_B0O0-unsplash.jpg);
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(240, 233, 221,0.1);
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: rgb(2, 51, 2)
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(248, 220, 167);
+    background-color: transparent;
+    border-radius: 5px;
+    color: #023302
+
+}
+
+.form-group input[type="submit"] {
+    background-color: wheat;
+    color: #023302;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: rgb(252, 210, 133);
+}

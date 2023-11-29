@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #A7D397;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 0 100px;
+    padding: 30px 70px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border:2px solid #F5EEC8;
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #555843;
+    border:2px solid #555843;
+    transform: scale(1.5);
+
+}
+
+a{
+    text-decoration: none;
+    color: #F5EEC8;
+}
